@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/psg.png">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Contact</title>
+    <nav class="navbar">
+        <a class="logo" href="index.html"><img src="img/psg.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="equipe.html">L'équipe</a></li>
+                <li><a class="link" href="histoire.html">L'histoire</a></li>
+                <li><a class="link" href="boutique.html">Boutique</a></li>
+                <li><a class="link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img src="img/hamburger.png" alt='menu-hamburger' class="menu-hamburger">
+    </nav>
+</head>
+<body>
+    <section class="text">
+        <h1>Pour toute question, contactez-nous</h1>
+        <p>Notre équipe se fera un plaisir de vous répondre dans de brefs delais. Pour un partenariat, veuillez contacter le service marketing.</p>
+    </section>
+    <form action="messageenvoye.php" method="post">
+        <div>
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+            <input type="text" id="nom" name="nom" placeholder="Nom">
+        </div>
+        <input type="text" id="mail" name="mail" placeholder="E-mail">
+        <label for="message"></label>
+        <textarea id="message" name="message" placeholder="Message" style="height:100px"></textarea>
+        <input class="btn-1" type="submit" value="ENVOYER">
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+<footer>
+    <div class="contact">
+        <h3>Contact</h3>
+        <p>+33 3 72 38 19 20</p>
+        <p>contact@psg.com</p>
+    </div>
+    <div class="aide">
+        <h3>Aide</h3>
+        <a href="#">Mentions légales</a>
+        <a href="#">Données personnelles</a>
+        <a href="#">CGV</a>
+        <a href="#">Cookies</a>
+        <a href="#">Centre d'aide</a>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.8795814135237!2d2.250473476517821!3d48.84143557132974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67ac09948a18d%3A0xdd2450406cef2c5c!2sLe%20Parc%20des%20Princes!5e0!3m2!1sfr!2sfr!4v1697013232832!5m2!1sfr!2sfr" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</footer>
+</html>

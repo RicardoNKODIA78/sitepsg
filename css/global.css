@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'PSGBold';
+    font-weight: 600;
+    src: url(‘fonts/PSG-Bold.ttf’) format(tff)
+}
+@font-face {
+    font-family: 'PSG';
+    font-weight: 400;
+    src: url(‘fonts/PSG-Regular.ttf’) format(tff)
+}
+@font-face {
+    font-family: 'PSG2021';
+    font-weight: 400;
+    src: url(‘fonts/PSG2021Ligue1Font.ttf’) format(tff)
+}
+
+h1 {
+    font-family: "PSG", sans-serif;
+    font-size: 2rem;
+}
+h2 {
+    font-family: "PSGBold", sans-serif;
+    font-size: 1.5rem;
+}
+h3 {
+    font-family: "PSGBold", sans-serif;
+    font-size: 1.25rem;
+}
+h4 {
+    font-family: "PSGBold", sans-serif;
+    font-size: 1.1rem;
+}
+p, a{
+    font-family: "PSG2021", sans-serif;;
+    font-size: 1rem;
+}

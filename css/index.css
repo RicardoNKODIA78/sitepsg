@@ -1,0 +1,204 @@
+#image_psg {
+  width: 100%;
+}
+
+.image_psg {
+  width: 100%;
+  padding-top: 4.5rem;
+  border-bottom: white 1px solid;
+}
+
+.texte_image {
+  color: white;
+  position: absolute;
+  padding-top: 10.5rem;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(155deg, rgba(49, 127, 188, 1) 0%, rgba(21, 39, 54, 1) 100%);
+}
+
+.kylian-mbappe {
+  margin-top: 5%;
+  width: 15rem;
+  float: right;
+}
+
+.titre3 {
+  color: white;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.CTA a {
+  color: red;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 3.25rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 2px black;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.CTA a:hover {
+
+  color: #fff;
+
+  box-shadow: inset 200px 0 0 0 red;
+  ;
+
+}
+
+.boutique_psg {
+  width: 100%;
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+}
+
+.kylian-mbappe1 {
+  border-radius: 10px;
+  width: 175px;
+}
+
+.histoire {
+  padding-top: 1.75rem;
+  padding-left: 1.75rem;
+  padding-bottom: 1.25rem;
+  display: flex;
+}
+
+.bouton {
+  color: red;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 3.25rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 2px black;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.bouton :hover {
+
+  color: #fff;
+
+  box-shadow: inset 200px 0 0 0 red;
+  ;
+
+}
+
+.bouton1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-100%);
+  margin-top: 90px;
+  color: red;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 3.25rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 2px black;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.bouton1 :hover {
+
+  color: #fff;
+
+  box-shadow: inset 200px 0 0 0 red;
+  ;
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  .texte-joueurs {
+    display: none;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .image_psg {
+    height: 300px;
+  }
+
+  .texte_image {
+    padding-left: 11rem;
+    padding-top: 13rem;
+  }
+
+  .texte-joueurs {
+    display: block;
+    color: white;
+    text-align: center;
+  }
+
+  .CTA {
+    margin-left: 11.25rem;
+    margin-top: 2.5rem;
+  }
+
+  .boutique_psg {
+    height: 250px;
+  }
+
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+  .image_psg {
+    height: 500px;
+  }
+
+  .texte_image {
+    padding-left: 46.5rem;
+    padding-top: 16rem;
+    width: 400px;
+    font-size: 55px;
+  }
+
+  .texte-joueurs {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+
+  }
+
+  .CTA {
+    margin-left: 40rem;
+    margin-top: 2.5rem;
+  }
+
+  .boutique_psg {
+    height: 500px;
+  }
+
+  .titre3 {
+    font-size: 45px;
+    padding-top: 6.5rem;
+  }
+
+  .kylian-mbappe {
+    width: 500px;
+  }
+
+  .kylian-mbappe1 {
+    width: 600px;
+    padding-left: 10rem;
+  }
+
+  .Texte {
+    padding-left: 15rem;
+  }
+
+  .bouton1 {
+    margin-top: 15rem;
+  }
+
+}

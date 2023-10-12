@@ -1,0 +1,82 @@
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+.player-category{
+    padding-top: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.player-category h1{
+    padding-bottom: 10px;
+}
+.player-category .grid .player-card{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.player-category .grid .player-card img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.player-category .grid .player-card div{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.player-category .grid .player-card div p{
+    padding-bottom: 10px;
+}
+
+#gardiens{
+    padding-top: 10rem;
+}
+
+#staff{
+    margin-bottom: 60px;
+}
+
+#hidden-staff{
+    background-color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1224px){
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .player-category{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1224px) and (max-width: 1424px){
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .player-category{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (min-width: 1424px){
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .player-category{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}

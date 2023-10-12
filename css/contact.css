@@ -1,0 +1,124 @@
+.text{
+    padding-top: 10rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text p{
+    padding-top: 25px;
+}
+
+
+form {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(21,39,54,1)e;
+    width: 100%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 540px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+form div{
+    display: flex;
+    gap: 20px;
+}
+
+input[type=text],
+textarea {
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+    color: rgba(21,39,54,1);
+    padding: 12px 20px;
+    padding-left: 0px;
+    border: 2px solid rgba(21,39,54,1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background-color: rgba(49,127,188,1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "PSG", sans-serif;
+}
+
+
+label {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: rgba(21,39,54,1);
+    font-family: 'PSGBold', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-left: -30px;
+    padding-left: 10px;
+}
+
+label{
+    font-size: 1rem;
+    font-family: 'PSGBold', sans-serif;
+}
+
+textarea {
+    background-color: transparent;
+    color: rgba(21,39,54,1);
+    padding: 12px 20px;
+    padding-left: 0px;
+    border: 2px solid rgba(21,39,54,1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea::placeholder {
+    color: rgba(21,39,54,1);
+    font-family: 'PSGBold', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .text{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1224px){
+    .text{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+@media (min-width: 1224px) and (max-width: 1424px){
+    .text{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media (min-width: 1424px){
+    .text{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}

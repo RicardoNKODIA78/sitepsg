@@ -1,0 +1,118 @@
+.banner-top {
+    padding-top: 10rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-top h1 {
+    padding-bottom: 20px;
+}
+
+.banner-top p {
+    padding-bottom: 40px;
+    text-align: justify;
+}
+
+#equipepsg {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.date {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.date .event {
+    display: flex;
+    gap: 7px;
+    padding-top: 20px;
+}
+
+.date .event img {
+    width: 3rem;
+}
+
+.date .description {
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#last-date {
+    margin-bottom: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner-top {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .date {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1224px) {
+    .banner-top {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .date {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1224px) and (max-width: 1424px) {
+    .banner-top {
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .date {
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1424px) {
+    .banner-top {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .date {
+        padding-left: 240px;
+        padding-right: 240px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .date .description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
